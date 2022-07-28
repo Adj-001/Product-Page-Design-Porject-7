@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:  'Kanit',sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 1em 0em;
+    margin-bottom: 3.5em;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 3em;
+    cursor: pointer;
+}
+
+.nav-items {
+    justify-content: space-between;   
+}
+
+.nav-item {
+    font-weight: 600;
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0.2em;
+    margin-left: 4em;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 3em;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 30px;
+    align-items: center;
+}
+
+h3 img {
+    width: 40px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    
+}
+
+.sub-headline {
+    margin: 1em 4em 1em 0em;
+    font-size: 25px;
+
+}
+
+span {
+    color: #fe5e35;
+    margin-right: 0.5em;
+}
+
+.text {
+    margin-bottom: 1.5em;
+    color: gray;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+button {
+    background-color: #fe5e35;
+    border: 0.1px solid #fe5e35;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.headphone {
+    position: relative;
+    right: 5em;
+    bottom: 4em;
+    width: 350px;
+}
+
+.right-section {
+    position: fixed;
+    bottom: 5em;
+    right: 5em;
+}
+
+.discount {
+    position: fixed;
+    right: 28em;
+    top: 19.5em;
+    width: 9em;
+}
+
+.discount-content {
+    position: fixed;
+    bottom: 14.4em;
+    right: 29.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.discount-content h4 {
+    font-size: 1em;
+    padding: 0em 0em;
+}
+
+.discount-content h1 {
+    font-size: 2.5em;
+    padding: 0em 0em;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em;
+    position: absolute;
+    bottom: 5.5em;
+    margin-left: 1.5em;
+}
+
+.dot {
+    width: 1em;
+    height: 1em;
+    border-radius: 2em;
+    margin-left: 1.5em;
+}
+
+.dot.yellow-dot {
+    background-color: #fafa1f;
+}
+
+.dot.tomato-dot {
+    background-color: #fe5e35;
+}
+
+.dot.black-dot {
+    background-color: #000000;
+}
+
+.action-btns {
+    position: fixed;
+    bottom: 5.5em;
+}
+
+
+.right-section button {
+    position: relative;
+    bottom: 1em;
+    left: 1em;
+}
